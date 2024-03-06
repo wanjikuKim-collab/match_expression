@@ -30,6 +30,6 @@ fn value_in_cents(coin: Coin) -> u8{
 }
 
 fn main() {
-    
+    value_in_cents(Coin::Quarter(UsState::Arkansas));   
 }
 
